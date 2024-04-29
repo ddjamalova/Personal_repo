@@ -17,14 +17,15 @@ Fig. Rulegraph of the feature extraction pipeline.
 
 [Bacterial essential genes prediction](https://github.com/HelmholtzAI-Consultants-Munich/gene-essentiality-prediction) | March 2021 - Present
 * Implemented classifiers (xgboost, Logistic Regression, Random Forest) using the Hydra Python framework.
+* Pipeline architecture facilitates model training by allowing configuration files and data pre-processing steps (*e.g.* imputation of missing values) to be switched from the command line. It also allows new data processing or model training steps to be added without rewriting a significant amount of code.
 
 ![Model training simplified scheme](../plots/hydra.png)
-Fig. Model training simplified scheme
+Fig. Model training simplified scheme.
 
 ---
 
 [Code snippets used to generate plots](https://github.com/ddjamalova/gene-essentiality-prediction-plots) | March 2021 - Present
-* This repo contains Jupyter notebooks and Python scripts that are themselves small projects, e.g. to perform an [incremental strain inclusion analysis](https://github.com/ddjamalova/gene-essentiality-prediction-plots/notebooks/bootstrap_prediction.ipynb), to assess a [predictive power of sequence-based features](https://github.com/ddjamalova/gene-essentiality-prediction-plots/notebooks/features_predictive_power.ipynb), and to perform a [cross-taxonomy prediction of bacterial essential genes at species, genera, family, and phylum levels](https://github.com/ddjamalova/gene-essentiality-prediction-plots/notebooks/cross_sp_prediction.ipynb). 
+* This repo contains Jupyter notebooks and Python scripts that are themselves small projects, *e.g.* to perform an [incremental strain inclusion analysis](https://github.com/ddjamalova/gene-essentiality-prediction-plots/notebooks/bootstrap_prediction.ipynb), to assess a [predictive power of sequence-based features](https://github.com/ddjamalova/gene-essentiality-prediction-plots/notebooks/features_predictive_power.ipynb), and to perform a [cross-taxonomy prediction of bacterial essential genes at species, genera, family, and phylum levels](https://github.com/ddjamalova/gene-essentiality-prediction-plots/notebooks/cross_sp_prediction.ipynb). 
 * Also, Jupyter notebooks ([1](https://github.com/ddjamalova/gene-essentiality-prediction-plots/notebooks/figure_1.ipynb), [2](https://github.com/ddjamalova/gene-essentiality-prediction-plots/notebooks/figure_2.ipynb), [3](https://github.com/ddjamalova/gene-essentiality-prediction-plots/notebooks/figure_3.ipynb)) contains example scripts to generate various plots.
 
 ---
@@ -41,4 +42,4 @@ Fig. Model training simplified scheme
 
 [ROSALING Solutions](https://github.com/ddjamalova/ROSALIND_solutions)
 * I regularly try to update this repo with the solutions to ROSALIND tasks
-* Repo contains Jupyter notebooks named after ROSALIND sections, e.g. `Python Village` or `Bioinformatics Stronghold`.
+* Repo contains Jupyter notebooks named after ROSALIND sections, *e.g.* `Python Village` or `Bioinformatics Stronghold`.
