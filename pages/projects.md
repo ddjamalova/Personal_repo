@@ -10,7 +10,7 @@
 * Pipeline implements [egnogg-mapper](https://github.com/eggnogdb/eggnog-mapper), [esearch](https://joshuadull.github.io/APIs-for-Libraries/08-NCBI-E-Utilities/index.html), [FreeSASA](https://freesasa.github.io/), [Foldseek](https://github.com/steineggerlab/foldseek), [CodonW](https://codonw.sourceforge.net/), and [GOATOOLS](https://github.com/tanghaibao/goatools) along with custom python scripts
 * Pipeline can be run with command `snakemake -p combine_features -j --cores 36 --use-conda`, where `-p` specifies the rule name, `-j` allows parallel execution of the non-connected rules, `--cores` allocates the required number of CPUs, `--use-conda` allows the python scripts or the required software to be executed in its conda environment.
 
-![Rulegraph of the feature extraction pipeline](./plots/pipeline.png)
+![Rulegraph of the feature extraction pipeline](../plots/pipeline.png)
 Fig. Rulegraph of the feature extraction pipeline.
 
 ---
@@ -18,7 +18,7 @@ Fig. Rulegraph of the feature extraction pipeline.
 [Bacterial essential genes prediction](https://github.com/HelmholtzAI-Consultants-Munich/gene-essentiality-prediction) | March 2021 - Present
 * Implemented classifiers (xgboost, Logistic Regression, Random Forest) using the Hydra Python framework.
 
-![Model training simplified scheme](./plots/hydra.png)
+![Model training simplified scheme](../plots/hydra.png)
 Fig. Model training simplified scheme
 
 ---
