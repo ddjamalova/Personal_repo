@@ -2,5 +2,6 @@
 
 # Links
 
-[![LinkedIn](https://www.linkedin.com/in/dilfuza-djamalova-615309216/)](https://www.linkedin.com/in/justinthoreson/)]
-[![Twitter](https://twitter.com/DilfuzaDjamalo1)]
+[LinkedIn](https://www.linkedin.com/in/dilfuza-djamalova-615309216/)
+[Twitter](https://twitter.com/DilfuzaDjamalo1)
+[Gmail](djamalovadilfuza1995@gmail.com)
