@@ -8,7 +8,7 @@
 * Pipeline implements [egnogg-mapper](https://github.com/eggnogdb/eggnog-mapper), [esearch](https://joshuadull.github.io/APIs-for-Libraries/08-NCBI-E-Utilities/index.html), [FreeSASA](https://freesasa.github.io/), [Foldseek](https://github.com/steineggerlab/foldseek), [CodonW](https://codonw.sourceforge.net/), and [GOATOOLS](https://github.com/tanghaibao/goatools) along with custom python scripts
 * Pipeline can be run with command `snakemake -p combine_features -j --cores 36 --use-conda` , where `-p` specifies the rule name, `-j` allows parallel execution of the non-connected rules, `--cores` allocates the required number of CPUs, `--use-conda` allows the python scripts or the required software to be executed in its own conda environment.
 
-![Rulegraph of the feature extraction pipeline](https://github.com/ddjamalova/ddjamalova.github.io/plots/rulegraph.png)
+![Rulegraph of the feature extraction pipeline](https://github.com/ddjamalova/ddjamalova.github.io/plots/pipeline.png)
 
 ---
 
