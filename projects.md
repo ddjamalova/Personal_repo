@@ -8,9 +8,10 @@
 * Built a snakemake pipeline to extract sequence-based features from bacterial genomes
 * Pipeline takes the genome data of the bacterial strains as input and produces a comprehensive table with the computed features for each gene as an output
 * Pipeline implements [egnogg-mapper](https://github.com/eggnogdb/eggnog-mapper), [esearch](https://joshuadull.github.io/APIs-for-Libraries/08-NCBI-E-Utilities/index.html), [FreeSASA](https://freesasa.github.io/), [Foldseek](https://github.com/steineggerlab/foldseek), [CodonW](https://codonw.sourceforge.net/), and [GOATOOLS](https://github.com/tanghaibao/goatools) along with custom python scripts
-* Pipeline can be run with command `snakemake -p combine_features -j --cores 36 --use-conda` , where `-p` specifies the rule name, `-j` allows parallel execution of the non-connected rules, `--cores` allocates the required number of CPUs, `--use-conda` allows the python scripts or the required software to be executed in its own conda environment.
+* Pipeline can be run with command `snakemake -p combine_features -j --cores 36 --use-conda`, where `-p` specifies the rule name, `-j` allows parallel execution of the non-connected rules, `--cores` allocates the required number of CPUs, `--use-conda` allows the python scripts or the required software to be executed in its conda environment.
 
 ![Rulegraph of the feature extraction pipeline](./plots/pipeline.png)
+Fig. Rulegraph of the feature extraction pipeline.
 
 ---
 
@@ -19,6 +20,7 @@
 * 
 
 ![Model training simplified scheme](./plots/hydra.png)
+Fig. Model training simplified scheme
 
 ---
 
@@ -29,7 +31,7 @@
 # Masters project
 
 [Code snippets used in Master's project](https://github.com/ddjamalova/Pangenome) | Sep 2018 - June 2020
-* This repo contains python code snippets used in my Masters project titled **Re-classification of species and genera in family of *Bacillaceae***
+* This repo contains python code snippets used in my Master's project titled **Re-classification of species and genera in family of *Bacillaceae***
 * Mainly 
 
 
@@ -37,4 +39,4 @@
 
 [ROSALING Solutions](https://github.com/ddjamalova/ROSALIND_solutions)
 * I regularly try to update this repo with solutions to ROSALIND tasks
-* Repo contatins Jupyter notebooks named after ROSALIND sections, e.g. `Python Village` and `Bioinformatics Stronghold`
+* Repo contains Jupyter notebooks named after ROSALIND sections, e.g. `Python Village` or `Bioinformatics Stronghold`
