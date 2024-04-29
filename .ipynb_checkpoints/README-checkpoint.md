@@ -12,4 +12,4 @@ I am a doctoral researcher and PhD student in Computational Biology in the [Micr
   
 * 🎯 I plan to learn `NLP`, especially `Transformers`, `Deep learning`, `database management`
 * [PROJECTS](./pages/projects.md)
-* [LINKS](./pages/links.md)
+* [Connect with Me](./pages/links.md)
